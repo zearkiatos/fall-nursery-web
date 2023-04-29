@@ -3,7 +3,7 @@ class Plant {
   commonName: string;
   scienticName: string;
   type: string;
-  maximumHeigh: number;
+  maximumHeight: number;
   weather: string;
   sowingSubstrate: string;
 
@@ -12,7 +12,7 @@ class Plant {
     commonName: string,
     scienticName: string,
     type: string,
-    maximumHeigh: number,
+    maximumHeight: number,
     weather: string,
     sowingSubstrate: string
   ) {
@@ -20,7 +20,7 @@ class Plant {
     this.commonName = commonName;
     this.scienticName = scienticName;
     this.type = type;
-    this.maximumHeigh = maximumHeigh;
+    this.maximumHeight = maximumHeight;
     this.weather = weather;
     this.sowingSubstrate = sowingSubstrate;
   }
