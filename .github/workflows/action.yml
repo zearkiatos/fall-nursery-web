@@ -28,11 +28,13 @@ jobs:
         touch .env &&
         echo "NODE_ENV=${NODE_ENV}" > .env &&
         echo "NG_CLI_ANALYTICS=${NG_CLI_ANALYTICS}" >> .env &&
-        echo "PORT=${PORT}" >> .env
+        echo "PORT=${PORT}" >> .env &&
+        echo 'PLANT_BASE_API_URL=${PLANT_BASE_API_URL}'
       env:
         NODE_ENV: ${{ secrets.NODE_ENV }}
         PORT: ${{ secrets.PORT }}
         NG_CLI_ANALYTICS: ${{ secrets.NG_CLI_ANALYTICS }}
+        PLANT_BASE_API_URL: ${{ secrets.PLANT_BASE_API_URL }}
     - name: Test 🧪
       run: npm run test:ci
     - name: Build docker 🐳

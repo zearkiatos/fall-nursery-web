@@ -17,4 +17,4 @@ RUN apk --no-cache add curl
      chmod +x envsubst
 COPY ./docker/nginx.conf /etc/nginx/nginx.template
 CMD ["/bin/sh", "-c", "envsubst < /etc/nginx/nginx.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"]
-COPY --from=builder /app/dist/angular-books-list-web /usr/share/nginx/html
+COPY --from=builder /app/dist/fall-nursery-web /usr/share/nginx/html
