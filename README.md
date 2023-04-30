@@ -1,6 +1,8 @@
 # Description
 It is an application web in 🅰️ngular it is a nursery store to show plants catalog and sale them 🌱🌳🌻🍂🍁
 
+![Github](https://github.com/zearkiatos/fall-nursery-web/actions/workflows/action.yml/badge.svg)
+
 # Made with
 [![Angular](https://img.shields.io/badge/angular-c42d30?style=for-the-badge&logo=angular&logoColor=white&labelColor=000000)]()
 [![JavaScript](https://img.shields.io/badge/javascript-ead547?style=for-the-badge&logo=javascript&logoColor=white&labelColor=000000)]()

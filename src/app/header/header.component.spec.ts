@@ -3,24 +3,23 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { HttpClientModule } from '@angular/common/http';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
-import { PlantService } from '../plant.service';
 
-import { PlantListComponent } from './plant-list.component';
+import { HeaderComponent } from './header.component';
 
-describe('PlantListComponent', () => {
-  let component: PlantListComponent;
-  let fixture: ComponentFixture<PlantListComponent>;
+describe('HeaderComponent', () => {
+  let component: HeaderComponent;
+  let fixture: ComponentFixture<HeaderComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [PlantListComponent],
+      declarations: [ HeaderComponent ],
       imports: [HttpClientModule],
-      providers: [ PlantService ]
-    }).compileComponents();
+    })
+    .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PlantListComponent);
+    fixture = TestBed.createComponent(HeaderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
