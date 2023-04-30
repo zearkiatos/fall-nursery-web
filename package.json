@@ -30,6 +30,7 @@
     "@angular-devkit/build-angular": "^15.2.7",
     "@angular/cli": "~15.2.7",
     "@angular/compiler-cli": "^15.2.0",
+    "@faker-js/faker": "^7.6.0",
     "@types/jasmine": "~4.3.0",
     "colors": "^1.4.0",
     "dotenv": "^16.0.3",
